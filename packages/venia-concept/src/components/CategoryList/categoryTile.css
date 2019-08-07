@@ -12,9 +12,9 @@
     border-radius: 50%;
     box-shadow: 0 0 0 1px rgb(var(--venia-border));
     display: block;
-    height: 5rem;
+    height: 40px;
     margin: 0 auto 1rem auto;
-    width: 5rem;
+    width: 40px;
 }
 
 .image {
@@ -25,4 +25,5 @@
 
 .name {
     display: block;
+    font-size: 10px;
 }

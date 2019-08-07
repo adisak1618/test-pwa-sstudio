@@ -12,9 +12,7 @@
 }
 
 .content {
-    display: grid;
-    grid-gap: 3rem 1rem;
-    grid-template-columns: repeat(auto-fit, 6rem);
+    display: flex;
     justify-content: center;
 }
 
