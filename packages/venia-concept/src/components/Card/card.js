@@ -25,15 +25,14 @@ export class Button extends Component {
 
     render() {
         const { children, classes, priority, type, data, ...restProps } = this.props;
-        const { small_image, name } = data;
-
+        const { small_image, name, price } = data;
         const rootClassName = classes[getRootClassName(priority)];
 
         return (
             <div className={rootClassName} type={type} {...restProps}>
               <CardWrapper>
                 <Card>
-                  <Price>199 USD</Price>
+                  <Price>{price.regularPrice.amount.value} {price.regularPrice.amount.currency}</Price>
                   <img className={classes.images} alt="product1" src={small_image.url} />
                   <Title>{name}</Title>
                 </Card>
