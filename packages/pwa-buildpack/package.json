@@ -45,7 +45,7 @@
     "figures": "~2.0.0",
     "graphql-playground-middleware-express": "~1.7.12",
     "lodash": "~4.17.11",
-    "node-fetch": "~2.3.0",
+    "node-fetch": "~2.6.1",
     "portscanner": "~2.2.0",
     "readdir-enhanced": "~2.2.4",
     "redis": "~2.8.0",
